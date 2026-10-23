@@ -1,39 +1,35 @@
-## Hi there 👋
-<p align="center"> <img src="./banner.svg" width="100%" alt="Yusuf Orçan" /> </p> <h1 align="center">Yusuf Orçan</h1> <p align="center"> <b>I design languages and the tools that keep them honest.</b> </p> <p align="center"> Building <a href="https://github.com/orhunlang/orhun"><b>Orhun</b></a>, a Turkish-first programming language,<br/> and a local-first toolkit that makes coding agents explain themselves. </p>
+<p align="center"> <img src="./banner.svg" width="100%" alt="Yusuf Orçan" /> </p> <h1 align="center">Yusuf Orçan</h1> <p align="center"> <b>I design languages and the tools that keep them honest.</b> </p> <p align="center"> Building <a href="https://github.com/orhunlang/orhun"><b>Orhun</b></a> — a Turkish-first programming language —<br/> and a local-first toolkit that makes coding agents explain themselves. </p>
 Two things, one story
-1. Orhun — a language with a contract
-Turkish-first syntax and diagnostics. C++17 bootstrap today, self-hosting tomorrow.
+1 · Orhun — a language with a contract
+Turkish-first syntax and teaching diagnostics. C++17 bootstrap today, self-hosting tomorrow.
 
-Version	1.1.0 · stable 1.0 language contract
+<p align="center"> <img src="./card-orhun.svg" width="100%" alt="Orhun terminal demo" /> </p>
+Contract	1.0 stable language · 1.1.0 current release
 Pipeline	lexer → parser → interpreter → bytecode compiler → VM → stdlib
-Proof	CI on Windows / Linux / macOS · release notes · cheatsheet
+Identity	Turkish keywords (işlev, eğer, döndür) · English aliases · .oh source
+Evidence	CI on Windows / Linux / macOS · release notes · cheatsheet
 
 
 bash
 
 Kopyala
-# Linux / macOS
-curl -fsSL https://raw.githubusercontent.com/orhunlang/orhun/v1.1.0/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/orhunlang/orhun/v1.1.0/install.sh | bash   # Linux / macOS
 powershell
 
 Kopyala
-# Windows
-irm https://raw.githubusercontent.com/orhunlang/orhun/v1.1.0/install.ps1 | iex
-orhun
+irm https://raw.githubusercontent.com/orhunlang/orhun/v1.1.0/install.ps1 | iex          # Windows
+→ Repository · Docs · Project status
 
-Kopyala
-yaz "Merhaba Orhun"
-→ Repository · Docs · Status
+2 · everyhook — one hook, every coding agent
+Claude Code · Codex CLI · Gemini CLI · Copilot CLI · Cursor.
+Same contract, one adapter per agent, bench-tested against what they really send.
 
-2. everyhook — one hook, every coding agent
-Claude Code, Codex CLI, Gemini CLI, Copilot CLI, Cursor.
-Same contract, one adapter per agent.
-
+<p align="center"> <img src="./card-everyhook.svg" width="100%" alt="everyhook terminal demo" /> </p>
 Evidence	
-Agents	5 adapters
-Fixtures	64 real captured documents, bench-tested
-Tokens	0 for the tool and for an installed hook, unless it returns a reason
-Deps	None — Node 18+, node: modules only
+Adapters	5 agents, one contract
+Fixtures	64 real captured documents
+Tokens	0 for the tool · 0 for an installed hook, unless it returns a reason
+Dependencies	None — Node 18+, node: modules only
 
 
 bash
@@ -48,8 +44,8 @@ node everyhook/bin/everyhook.mjs install everyhook/examples/block-force-push.mjs
 → Repository · Examples
 
 The rest of the ecosystem
-Agent diagnostics that answer why, not just what.
-Each CLI is zero-token, local-first, and labels every claim verified / documented / not verified.
+Diagnostics that answer why, not just what.
+Every claim is labeled verified / documented / not verified. Zero tokens unless the tool must speak.
 
 Tool	Answers
 claude-windows-doctor	Which shell the model gets on Windows — and the fix
