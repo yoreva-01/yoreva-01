@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-label="Orhun terminal demo">
+  <defs>
+    <linearGradient id="frame" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="titlebar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2234"/>
+      <stop offset="100%" stop-color="#121a2b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- window -->
+  <rect x="2" y="2" width="716" height="316" rx="12" fill="#0b1220" stroke="url(#frame)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="716" height="36" rx="12" fill="url(#titlebar)"/>
+  <rect x="2" y="24" width="716" height="14" fill="url(#titlebar)"/>
+
+  <!-- traffic lights -->
+  <circle cx="24" cy="20" r="5" fill="#ff5f57"/>
+  <circle cx="42" cy="20" r="5" fill="#febc2e"/>
+  <circle cx="60" cy="20" r="5" fill="#28c840"/>
+
+  <!-- title -->
+  <text x="360" y="24" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#94a3b8">orhun — demo.oh</text>
+
+  <!-- body -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+    <!-- prompt line -->
+    <text x="28" y="68" fill="#00f2fe">$</text>
+    <text x="48" y="68" fill="#e2e8f0">orhun demo.oh</text>
+
+    <!-- output -->
+    <text x="28" y="100" fill="#e2e8f0">Merhaba Orhun</text>
+    <text x="28" y="124" fill="#e2e8f0">Merhaba, dünya</text>
+    <text x="28" y="148" fill="#e2e8f0">Merhaba, Orhun</text>
+
+    <!-- source echo -->
+    <rect x="20" y="172" width="680" height="112" rx="8" fill="#111827" stroke="#1f2a44" stroke-width="1"/>
+    <text x="36" y="196" fill="#7c3aed">tip</text>
+    <text x="72" y="196" fill="#c4b5fd">Selamlayıcı</text>
+    <text x="176" y="196" fill="#64748b">:</text>
+    <text x="36" y="218" fill="#64748b">    </text>
+    <text x="72" y="218" fill="#7c3aed">işlev</text>
+    <text x="128" y="218" fill="#93c5fd">selam</text>
+    <text x="180" y="218" fill="#94a3b8">(ad olsun </text>
+    <text x="268" y="218" fill="#86efac">"dünya"</text>
+    <text x="332" y="218" fill="#94a3b8">):</text>
+    <text x="72" y="240" fill="#64748b">        </text>
+    <text x="112" y="240" fill="#7c3aed">döndür</text>
+    <text x="180" y="240" fill="#86efac">"Merhaba, "</text>
+    <text x="280" y="240" fill="#94a3b8"> + ad</text>
+    <text x="36" y="262" fill="#e2e8f0">s olsun yeni Selamlayıcı()</text>
+
+    <!-- version chip -->
+    <rect x="520" y="52" width="172" height="28" rx="14" fill="#122033" stroke="#00f2fe" stroke-opacity="0.35" stroke-width="1"/>
+    <text x="606" y="70" text-anchor="middle" font-size="11" fill="#38bdf8">stable 1.0 contract</text>
+  </g>
+</svg>

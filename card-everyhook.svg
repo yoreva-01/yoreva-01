@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-label="everyhook terminal demo">
+  <defs>
+    <linearGradient id="frame2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="titlebar2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2234"/>
+      <stop offset="100%" stop-color="#121a2b"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="716" height="316" rx="12" fill="#0b1220" stroke="url(#frame2)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="716" height="36" rx="12" fill="url(#titlebar2)"/>
+  <rect x="2" y="24" width="716" height="14" fill="url(#titlebar2)"/>
+
+  <circle cx="24" cy="20" r="5" fill="#ff5f57"/>
+  <circle cx="42" cy="20" r="5" fill="#febc2e"/>
+  <circle cx="60" cy="20" r="5" fill="#28c840"/>
+
+  <text x="360" y="24" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#94a3b8">everyhook — explain</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">
+    <text x="28" y="68" fill="#00f2fe">$</text>
+    <text x="48" y="68" fill="#e2e8f0">npx -y github:nrzz/everyhook explain</text>
+
+    <text x="28" y="96" fill="#cbd5e1">How the five coding agents differ on hooks.</text>
+    <text x="28" y="114" fill="#64748b">[binary] = a real run of the agent saw it · [docs] = its documentation says so.</text>
+
+    <!-- table header -->
+    <rect x="20" y="128" width="680" height="28" rx="6" fill="#152036"/>
+    <text x="36" y="147" fill="#38bdf8">agent</text>
+    <text x="170" y="147" fill="#38bdf8">install target</text>
+    <text x="560" y="147" fill="#38bdf8">basis</text>
+
+    <!-- rows -->
+    <text x="36" y="176" fill="#e2e8f0">claude-code</text>
+    <text x="170" y="176" fill="#94a3b8">~/.claude/settings.json → hooks</text>
+    <text x="560" y="176" fill="#86efac">binary</text>
+
+    <text x="36" y="200" fill="#e2e8f0">codex</text>
+    <text x="170" y="200" fill="#94a3b8">CODEX_HOME/hooks.json · trust hash</text>
+    <text x="560" y="200" fill="#86efac">binary</text>
+
+    <text x="36" y="224" fill="#e2e8f0">gemini-cli</text>
+    <text x="170" y="224" fill="#94a3b8">~/.gemini/settings.json → hooks</text>
+    <text x="560" y="224" fill="#86efac">binary</text>
+
+    <text x="36" y="248" fill="#e2e8f0">copilot-cli</text>
+    <text x="170" y="248" fill="#94a3b8">~/.copilot/hooks/*.json</text>
+    <text x="560" y="248" fill="#86efac">binary</text>
+
+    <text x="36" y="272" fill="#e2e8f0">cursor</text>
+    <text x="170" y="272" fill="#94a3b8">~/.cursor/hooks.json</text>
+    <text x="560" y="272" fill="#fbbf24">docs</text>
+
+    <!-- footer chips -->
+    <rect x="28" y="288" width="92" height="22" rx="11" fill="#122033" stroke="#00f2fe" stroke-opacity="0.35"/>
+    <text x="74" y="303" text-anchor="middle" font-size="11" fill="#38bdf8">64 fixtures</text>
+
+    <rect x="132" y="288" width="78" height="22" rx="11" fill="#122033" stroke="#a855f7" stroke-opacity="0.35"/>
+    <text x="171" y="303" text-anchor="middle" font-size="11" fill="#c4b5fd">0 tokens</text>
+
+    <rect x="222" y="288" width="88" height="22" rx="11" fill="#122033" stroke="#00f2fe" stroke-opacity="0.35"/>
+    <text x="266" y="303" text-anchor="middle" font-size="11" fill="#38bdf8">5 adapters</text>
+
+    <rect x="322" y="288" width="108" height="22" rx="11" fill="#122033" stroke="#a855f7" stroke-opacity="0.35"/>
+    <text x="376" y="303" text-anchor="middle" font-size="11" fill="#c4b5fd">zero deps</text>
+  </g>
+</svg>
