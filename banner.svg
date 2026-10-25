@@ -51,9 +51,9 @@
 
   <line x1="338" y1="52" x2="338" y2="188" stroke="url(#neonRim)" stroke-width="1" opacity="0.35" />
 
-  <text x="378" y="112" text-anchor="start" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="58" font-weight="900" letter-spacing="-1" filter="url(#textGlow)">Yusuf Orçan</text>
+  <text x="378" y="112" text-anchor="start" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="58" font-weight="900" letter-spacing="-1" filter="url(#textGlow)">Yusuf Or&#231;an</text>
 
-  <text x="380" y="150" text-anchor="start" fill="#38bdf8" font-family="&#39;Segoe UI&#39;, Roboto, sans-serif" font-size="13" font-weight="600" letter-spacing="3.2" opacity="0.95">QUIET FOCUS · CLEAN SOLUTIONS</text>
+  <text x="380" y="150" text-anchor="start" fill="#38bdf8" font-family="&#39;Segoe UI&#39;, Roboto, sans-serif" font-size="13" font-weight="600" letter-spacing="3.2" opacity="0.95">SYSTEMS &#183; COMPILERS &#183; DEVELOPER TOOLING</text>
 
   <line x1="380" y1="168" x2="730" y2="168" stroke="url(#neonRim)" stroke-width="1" opacity="0.35" />
 </svg>
