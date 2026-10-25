@@ -80,7 +80,7 @@ Prefer a small number of deep fixes over a wall of easy PRs.
 
 | Problem | Where | What landed |
 | --- | --- | --- |
-| Device-scoped atomics emitted with a by-value target | `CrossGL/crosstl` HIP codegen | In progress — pointer operand for `_system` forms |
+| Device-scoped atomics emitted with a by-value target | `CrossGL/crosstl` HIP codegen | Pointer operand for every `_system` form, matching HIP's prototypes |
 | Locale-broken rule metadata on non-UTF-8 Windows | `IkarusAILabs/SafeAI` | Explicit `encoding="utf-8"` on every text I/O path + a GBK-default regression test |
 | Unverified data reported as "available" | `aamirtechs/state-eligibility-matrix` | Placeholder rows stay `no` and cite `SRC_UNVERIFIED`; citation tests stay strict |
 | Bounded delivery for cron / serverless | `pplytas/good-webhooks` | `run-once.ts` entrypoint: time budget, stop reason, lease-safe batches |
