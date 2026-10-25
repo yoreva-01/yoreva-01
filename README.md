@@ -73,6 +73,17 @@ claude-automode-doctor	Decode auto-mode classifier verdicts
 
 
 </details>
+
+## Open source — the hard ones
+
+Prefer a small number of deep fixes over a wall of easy PRs.
+
+| Problem | Where | What landed |
+| --- | --- | --- |
+| Device-scoped atomics emitted with a by-value target | `CrossGL/crosstl` HIP codegen | In progress — pointer operand for `_system` forms |
+| Locale-broken rule metadata on non-UTF-8 Windows | `IkarusAILabs/SafeAI` | Explicit `encoding="utf-8"` on every text I/O path + a GBK-default regression test |
+| Unverified data reported as "available" | `aamirtechs/state-eligibility-matrix` | Placeholder rows stay `no` and cite `SRC_UNVERIFIED`; citation tests stay strict |
+| Bounded delivery for cron / serverless | `pplytas/good-webhooks` | `run-once.ts` entrypoint: time budget, stop reason, lease-safe batches |
 How I work
 text
 
