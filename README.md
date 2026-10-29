@@ -22,6 +22,9 @@
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&labelColor=0b1220" />
 </p>
 
+> [!NOTE]
+> **Availability (Nov–Dec 2026):** Stepping back from active GitHub contributions for ~2 months. Responses to issues and PR reviews may be delayed until January 2027.
+
 ---
 
 ## 1 · Flagship Project — [Orhun (`orhunlang/orhun`)](https://github.com/orhunlang/orhun)
